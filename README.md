@@ -1,5 +1,5 @@
 # yii2-check-login-attempts
-this is a checker for login attempts
+this is a checker for login attempts, forked from https://github.com/giannisdag/yii2-check-login-attempts
 
 based on https://github.com/ethercreative/yii2-login-attempts-behavior
 
