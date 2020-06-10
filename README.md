@@ -7,11 +7,11 @@ based on https://github.com/ethercreative/yii2-login-attempts-behavior
 
 The preferred way to install this extension is through composer. Either run
 
-composer require giannisdag/yii2-check-login-attempts
+composer require aklim/yii2-check-login-attempts
 
 or add
 
-"giannisdag/yii2-check-login-attempts": "*"
+"aklim/yii2-check-login-attempts": "*"
 
 to the require section of your composer.json file.
 
@@ -19,7 +19,7 @@ to the require section of your composer.json file.
 Run the following migration
 
 ```php
-php yii migrate --migrationPath="@vendor/giannisdag/yii2-check-login-attempts/src/migrations"  --interactive=0
+php yii migrate --migrationPath="@vendor/aklim/yii2-check-login-attempts/src/migrations"  --interactive=0
 ```
 Add the behavior to your login model
 ```php
@@ -28,7 +28,7 @@ Add the behavior to your login model
         $behaviors = parent::behaviors();
         
         $behaviors[] = [
-             'class' => '\giannisdag\yii2CheckLoginAttempts\behaviors\LoginAttemptBehavior',
+             'class' => '\aklim\yii2CheckLoginAttempts\behaviors\LoginAttemptBehavior',
             
             // Amount of attempts in the given time period
             'attempts' => 3,
