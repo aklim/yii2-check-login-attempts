@@ -9,6 +9,10 @@
         {
             "name": "Giannis Dagkoulis",
             "email": "giannisdag@yahoo.gr"
+        },
+        {
+            "name": "Andrey Klimenko",
+            "email": "andrey.iemail@gmail.com"
         }
     ],
     "autoload": {
