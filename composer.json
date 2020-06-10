@@ -1,23 +1,26 @@
 {
-    "name": "aklim/yii2-check-login-attempts",
-    "description": "Disable login after multiple failures.",
-    "keywords": ["yii2", "behavior"],
-    "require": {
-        "yiisoft/yii2": "*"
+  "name": "aklim/yii2-check-login-attempts",
+  "description": "Disable login after multiple failures.",
+  "keywords": [
+    "yii2",
+    "behavior"
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "authors": [
+    {
+      "name": "Andrey Klimenko",
+      "email": "andrey.iemail@gmail.com"
     },
-    "authors": [
-        {
-            "name": "Giannis Dagkoulis",
-            "email": "giannisdag@yahoo.gr"
-        },
-        {
-            "name": "Andrey Klimenko",
-            "email": "andrey.iemail@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "aklim\\yii2CheckLoginAttempts\\": "src/"
-        }
+    {
+      "name": "Giannis Dagkoulis",
+      "email": "giannisdag@yahoo.gr"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "aklim\\yii2CheckLoginAttempts\\": "src/"
+    }
+  }
 }
