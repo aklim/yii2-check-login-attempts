@@ -1,5 +1,5 @@
 {
-    "name": "giannisdag/yii2-check-login-attempts",
+    "name": "aklim/yii2-check-login-attempts",
     "description": "Disable login after multiple failures.",
     "keywords": ["yii2", "behavior"],
     "require": {
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "giannisdag\\yii2CheckLoginAttempts\\": "src/"
+            "aklim\\yii2CheckLoginAttempts\\": "src/"
         }
     }
 }
