@@ -1,6 +1,6 @@
 <?php
 
-namespace giannisdag\yii2CheckLoginAttempts\behaviors;
+namespace aklim\yii2CheckLoginAttempts\behaviors;
 
 use aklim\yii2CheckLoginAttempts\models\LoginAttempt;
 use yii\base\Behavior;
